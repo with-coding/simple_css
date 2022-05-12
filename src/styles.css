@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.football ul {
+  list-style: none;
+  margin: 0;
+  padding: 40px;
+  border: 1px solid #ddd;
+  width: 800px;
+  overflow: hidden;
+}
+.football ul li {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+.football ul li a {
+  text-decoration: none;
+  color: #222;
+}
+.football ul li a:hover {
+  color: royalblue;
+}
