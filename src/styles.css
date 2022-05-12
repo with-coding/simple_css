@@ -15,6 +15,11 @@ body {
   float: left;
   text-align: center;
   width: 20%;
+  box-sizing: border-box; /*크기에 보더 크기를 포함*/
+  border-right: 1px solid #ddd;
+}
+.football ul li:last-child {
+  border-right: none;
 }
 .football ul li a {
   text-decoration: none;
